@@ -508,24 +508,24 @@
                         <div class="card">
                             <div class="el-card-item">
                                 <div class="el-card-avatar el-overlay-1">
-                                    <img src="../../assets/images/projetos890x593/ssistema-de-estacionamento.png" alt="user" />
+                                    <img src="../../assets/images/projetos890x593/sistema-de-estacionamento.png" alt="user" />
                                     <div class="el-overlay">
                                         <ul class="list-style-none el-info">
                                             <li class="el-item">
-                                                <a class="btn default btn-outline image-popup-vertical-fit el-link" href="../../assets/images/projetos890x593/ssistema-de-estacionamento.png">
+                                                <a class="btn default btn-outline image-popup-vertical-fit el-link" href="../../assets/images/projetos890x593/sistema-de-estacionamento.png">
                                                     <i class="mdi mdi-magnify-plus"></i>
                                                 </a>
                                             </li>
                                             <li class="el-item">
-                                                <a class="btn default btn-outline el-link" href="javascript:void(0);">
-                                                    <i class="mdi mdi-link"></i>
+                                                <a class="btn default btn-outline  el-link" data-toggle="modal" data-target="#modalLoginForm">
+                                                    <i data-toggle="tooltip" data-placement="top" title="Formulário do projeto" class="fas fa-edit"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="el-card-content">
-                                    <h4 class="m-b-0">Sistema de Estacionamento</h4>
+                                    <h4 class="m-b-0">Estacionamento</h4>
                                     <span class="text-muted">subtitle of project</span>
                                 </div>
                             </div>
@@ -544,15 +544,15 @@
                                                 </a>
                                             </li>
                                             <li class="el-item">
-                                                <a class="btn default btn-outline el-link" href="javascript:void(0);">
-                                                    <i class="mdi mdi-link"></i>
+                                                <a class="btn default btn-outline  el-link" data-toggle="modal" data-target="#modalLoginForm">
+                                                    <i data-toggle="tooltip" data-placement="top" title="Formulário do projeto" class="fas fa-edit"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="el-card-content">
-                                    <h4 class="m-b-0">Sistema de Porteiro Eletrônico</h4>
+                                    <h4 class="m-b-0">Porteiro Eletrônico</h4>
                                     <span class="text-muted">subtitle of project</span>
                                 </div>
                             </div>
@@ -571,15 +571,15 @@
                                                 </a>
                                             </li>
                                             <li class="el-item">
-                                                <a class="btn default btn-outline el-link" href="javascript:void(0);">
-                                                    <i class="mdi mdi-link"></i>
+                                                <a class="btn default btn-outline  el-link" data-toggle="modal" data-target="#modalLoginForm">
+                                                    <i data-toggle="tooltip" data-placement="top" title="Formulário do projeto" class="fas fa-edit"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="el-card-content">
-                                    <h4 class="m-b-0">Sistema de Padaria</h4>
+                                    <h4 class="m-b-0">Padaria</h4>
                                     <span class="text-muted">subtitle of project</span>
                                 </div>
                             </div>
@@ -592,21 +592,23 @@
                                     <img src="../../assets/images/projetos890x593/sistema-de-ecommerce.jpg" alt="user" />
                                     <div class="el-overlay">
                                         <ul class="list-style-none el-info">
+
                                             <li class="el-item">
                                                 <a class="btn default btn-outline image-popup-vertical-fit el-link" href="../../assets/images/projetos890x593/sistema-de-ecommerce.jpg">
                                                     <i class="mdi mdi-magnify-plus"></i>
                                                 </a>
                                             </li>
                                             <li class="el-item">
-                                                <a class="btn default btn-outline el-link" href="javascript:void(0);">
-                                                    <i class="mdi mdi-link"></i>
+                                                <a class="btn default btn-outline  el-link" data-toggle="modal" data-target="#modalLoginForm">
+                                                    <i data-toggle="tooltip" data-placement="top" title="Formulário do projeto" class="fas fa-edit"></i>
                                                 </a>
                                             </li>
                                         </ul>
+
                                     </div>
                                 </div>
                                 <div class="el-card-content">
-                                    <h4 class="m-b-0">Project title</h4>
+                                    <h4 class="m-b-0">Loja Virtual</h4>
                                     <span class="text-muted">subtitle of project</span>
                                 </div>
                             </div>
@@ -614,6 +616,10 @@
                     </div>
                     <p>Se algum projeto não estiver visível para você e tiver sido criado pelo Administrador Geral, solicite
                         à ele que lhe conceda acesso.</p>
+
+
+
+
                 </div>
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
@@ -629,6 +635,67 @@
             <!-- ============================================================== -->
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
+            <!--Formulário Modal do Projeto-->
+            <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h4 class="modal-title w-100 font-weight-bold">Dados do Projeto</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal">
+                                <div class="card-body">
+
+                                    <div class="form-group row">
+                                        <label for="fname" class="col-sm-3 text-right control-label col-form-label">Nome do Projeto</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control enableForm" placeholder="Nome do Projeto" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Chave do Projeto</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control enableForm" placeholder="ex.: MD-05" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 text-right control-label col-form-label">Administrador do Projeto</label>
+                                        <div class="col-sm-9">
+                                            <select class="select2 form-control custom-select enableForm" style="width: 100%; height:36px;" disabled>
+                                                <option>Select</option>
+                                                <option value="usuario1">Mariana Arruda</option>
+                                                <option value="usuario2">Breyner Gonçalves</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="cono1" class="col-sm-3 text-right control-label col-form-label">Informações Adicionais</label>
+                                        <div class="col-sm-9">
+                                            <textarea class="form-control enableForm" disabled></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-top">
+                                    <div class="card-body">
+                                        <button type="button" id="btEditarForm" class="btn btn-primary" onclick="editarFormulario()" data-toggle="tooltip" data-placement="top"
+                                            title="Apenas visível para o Adm de Projeto e níveis superiores.">Editar</button>
+                                        <button style="display:none" onclick="salvarFormulario()" type="button" id="btSalvarForm" class="btn btn-primary" onclick="editarFormulario()"
+                                            data-toggle="tooltip" data-placement="top" title="Apenas visível para o Adm de Projeto e níveis superiores.">Salvar</button>
+                                    </div>
+                                    <p>Quando o usuário seleciona Editar, os campos do formulário se tornam editáveis e o botão
+                                        é substituído pelo botão salvar.</p>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
@@ -666,6 +733,28 @@
     <!-- this page js -->
     <script src="../../assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="../../assets/libs/magnific-popup/meg.init.js"></script>
+
+    <script>
+        function editarFormulario() {
+            var componentes = document.getElementsByClassName("enableForm");
+            for (var i = 0; i < componentes.length; i++) {
+                componentes[i].disabled = false;
+            }
+            document.getElementById("btEditarForm").style = "display:none";
+            document.getElementById("btSalvarForm").style = "visibility:visible;";
+        }
+        function salvarFormulario() {
+            var componentes = document.getElementsByClassName("enableForm");
+            for (var i = 0; i < componentes.length; i++) {
+                componentes[i].disabled = true;
+            }
+            document.getElementById("btEditarForm").style = "visibility:visible;";
+            document.getElementById("btSalvarForm").style = "display:none";
+        }
+
+
+
+    </script>
 </body>
 
 </html>

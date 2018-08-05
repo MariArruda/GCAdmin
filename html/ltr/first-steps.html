@@ -509,15 +509,37 @@
                         <!-- accoridan part -->
                         <div class="accordion" id="accordionExample">
                             <div class="card m-b-0">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" id="heading1">
                                     <h5 class="mb-0">
-                                        <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 1: Criar o projeto e seus produtos</span>
+                                            <span>Passo 1: Cadastrar Usuário</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+                                    <div class="card-body">
+
+                                        <p>Para que um novo projeto seja criado, é necessário o cadastro prévio do usuário que será o Administrador do Projeto.</p>
+                                        Gerencie o cadastro de usuários no Menu X Submenu Y ou
+                                        <a href="gerenciamentoUsuarios.html" type="link" data-toggle="tooltip" data-placement="top" title="Visível apenas para o Gerente de Projeto e Níveis Superiores.">
+                                            Clique aqui para ser direcionado à respectiva página.
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card m-b-0 border-top">
+                                <div class="card-header" id="heading2">
+                                    <h5 class="mb-0">
+                                        <a data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                            <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
+                                            <span>Passo 2: Criar o projeto</span>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
                                     <div class="card-body">
 
                                         <p>O projeto é um escopo dentro do qual serão criadas as demais configurações. </p>
@@ -525,24 +547,10 @@
 
                                         <p>A empresa Alfa Software atua na área de segurança e possui dois projetos:
                                             <br/> 1) Porteiro eletrônico e
-                                            <br/> 2) Monitoramento veicular.</p>
-                                        <p> O projeto Porteiro Eletrônico possui dois Produtos:
-                                            <br/> 1.1) Software de reconhecimento facial e
-                                            <br/> 1.2) Porteiro Eletrônico.
-                                            <br/>
+                                            <br/> 2) Monitoramento veicular.</p>                                    
+                                       
                                         </p>
-                                        <p> O projeto Monitoramento Veicular possui dois Produtos:
-                                            <br/> 2.1) Sistema de Monitoramento veicular, que o usuário utiliza para visualizar
-                                            os dados dos seus veículos e
-                                            <br/> 2.2) Rastreador Veicular, que é o hardware que fica instalado dentro do veículo,
-                                            com um sistema responsável por enviar informações do veículo para o sistema de
-                                            Monitoramento.
-                                        </p>
-                                        <p>
-                                            <br/> Um Projeto possui um ou mais produtos.
-                                            <br/>
-                                        </p>
-                                        Crie ou edite um projeto no Menu X Submenu Y ou  
+                                        Crie ou edite um projeto no Menu X Submenu Y ou
                                         <a href="gerenciamentoProjetos.html" type="link" data-toggle="tooltip" data-placement="top" title="Visível apenas para o Gerente de Projeto e Níveis Superiores.">
                                             Clique aqui para ser direcionado à respectiva página.
                                         </a>
@@ -551,15 +559,37 @@
                                 </div>
                             </div>
                             <div class="card m-b-0 border-top">
-                                <div class="card-header" id="headingTwo">
+                                <div class="card-header" id="heading3">
                                     <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <a data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 2: Cadastrar os Itens de Configuração</span>
+                                            <span>Passo 3: Criar os produtos de determinado projeto</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Produto é o componente que o cliente utiliza.</p>
+                                        <p>O chamado é aberto para determinado produto de algum projeto específico.</p>
+                                        <p>Cada produto possui tipos de solicitações que podem ser características apenas dele.</p>
+                                        Crie ou edite os produtos do projeto no Menu X Submenu Y ou
+                                        <a href="gerenciamentoProdutos.html" type="link" data-toggle="tooltip" data-placement="top" title="Visível apenas para o Gerente de Projeto e Níveis Superiores.">
+                                            Clique aqui para ser direcionado à respectiva página.
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-b-0 border-top">
+                                <div class="card-header" id="heading4">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
+                                            <span>Passo 4: Cadastrar os Itens de Configuração</span>
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p>Item de configuração é qualquer componente que necessite ser configurado com o objetivo
                                             de se entregar um serviço de TI.</p>
@@ -589,15 +619,15 @@
                                 </div>
                             </div>
                             <div class="card m-b-0 border-top">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="heading5">
                                     <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <a class="collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 3: Cadastrar os Tipos de Solicitações</span>
+                                            <span>Passo 5: Cadastrar os Tipos de Solicitações</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p>O tipo de solicitação será o motivo pelo qual o usuário irá criar o chamado para
                                             determinado produto</p>
@@ -622,15 +652,15 @@
                                 </div>
                             </div>
                             <div class="card m-b-0 border-top">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="heading6">
                                     <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <a class="collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 4: Associoar Tipos de Solicitações aos Produtos</span>
+                                            <span>Passo 6: Associoar Tipos de Solicitações aos Produtos</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p>Cada produto contém sua particularidade e por isto pode necessitar de diferentes
                                             Tipos de Solicitações. </p>
@@ -639,15 +669,15 @@
                                 </div>
                             </div>
                             <div class="card m-b-0 border-top">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="heading7">
                                     <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <a class="collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 5: Criar os Status e Fluxos das solicitações</span>
+                                            <span>Passo 7: Criar os Status e Fluxos das solicitações</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p> Fluxo é a definição dos estados possíveis que determinada solicitação pode ter e
                                             a ordem que este estados podem seguir.</p>
@@ -675,15 +705,15 @@
                                 </div>
                             </div>
                             <div class="card m-b-0 border-top">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="heading8">
                                     <h5 class="mb-0">
-                                        <a class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <a class="collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
                                             <i class="m-r-5 fa fa-magnet" aria-hidden="true"></i>
-                                            <span>Passo 6: Criar a origem dos chamados</span>
+                                            <span>Passo 8: Criar a origem dos chamados</span>
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p>Os chamados possuem origens diversas.</p>
                                         <p>Por padrão, esta ferramente possui 3 origens que não podem ser alteradas, são elas:</p>
